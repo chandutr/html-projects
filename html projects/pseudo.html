@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        h1::after{
+            content:"fruits";
+        }
+        h1::before{
+            content:"My";
+        }
+        h1::first-letter{
+            color: blueviolet;
+        }
+        h1::first-line{
+            background-color: aqua;
+        }
+        li::marker{
+            content:"-->";
+        }
+        li::selection{
+            background-color: yellow;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1> favourite </h1>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Strawberry</li>
+        <li>Starfruit</li>
+    </ul>
+</body>
+</html>

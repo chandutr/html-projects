@@ -1,0 +1,44 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.navbar{
+    height: 75px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoblock{
+    height: 75px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menublock{
+    height: 75px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+img{
+    height: 57px;
+    width: 190px;
+}
+
+body{
+    background-color:bisque;
+}
+
+a{
+    text-decoration: none;
+}
